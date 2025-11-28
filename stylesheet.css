@@ -1,0 +1,336 @@
+.playHTML {
+    color: blue;
+}
+
+.testTabelle {
+    border: 1px solid black; 
+    border-collapse: collapse;
+    background:  #000080;
+    width: 100%; 
+    color:rgb(179, 25, 107);
+}
+
+td + td,
+th + th {
+    color: #4682B4;
+    padding: 8px;
+    border-bottom: 2px solid grey;
+    border-left: 3px solid #333; 
+
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+.blue {
+    color: #87CEEB;
+}
+
+.yellow {
+    color: rgba(198, 172, 23, 0.685);
+}
+
+.rose {
+    color: rgb(210, 21, 97);
+}
+
+.seaBlue {
+    color: rgb(16, 180, 209);
+}
+
+.diamondBlue {
+    color: rgb(138, 174, 208);
+}
+
+.crystalBlue {
+    color: rgb(56, 135, 203);
+}
+
+.cremeRose {
+    color: rgb(205, 180, 201);
+}
+
+.lachsRose {
+    color:rgb(190, 115, 157);
+}
+
+.darkPink {
+    color: rgb(179, 25, 107);
+}
+
+.yellowG
+{
+    color: rgb(207, 207, 16);
+}
+
+.darkYellow {
+    color: goldenrod;
+}
+
+.yellowGrey {
+    color:rgb(200, 200, 126);
+}
+
+.nummernBlock {
+    border-collapse: separate;
+    border-spacing: 8px;
+    table-layout: fixed;
+    width: 100%;
+    color:#c08fc2;
+}
+.nummernBlockEins,
+.nummernBlockZwei,
+.nummernBlockDrei,
+.nummernBlockVier,
+.nummernBlockFünf,
+.nummernBlockSechs,
+.nummernBlockSieben,
+.nummernBlockAcht,
+.nummernBlockNeun,
+.nummernBlockZehn,
+.nummernBlockElf,
+.nummernBlockSecond,
+.nummernBlockThird,
+.nummernBlockForth {
+    border: 1px solid white;
+    border-radius: 10px;
+    width: 70%;
+    text-align: center;
+    height: 70%;
+    padding: 10px;
+    color: #1E90FF;
+}
+.monDay,
+.tuesDay,
+.wednesDay,
+.thursDay,
+.friDay {
+    color: #00CED1;
+    border: 1px solid grey;
+    text-align: center;
+    height: 70%;
+    padding: 10px;
+    border-bottom: 2px solid grey;
+    border-left: 3px solid #333;   
+}
+
+.dayOne,
+.dayTwo,
+.dayThree,
+.dayFour,
+.dayFive {
+    color: #FF1493;
+    border-bottom: 2px solid grey;
+    border-left: 3px solid #333; 
+}
+
+.ueberSchrift1 {
+    color: #e2638c;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+.themenWahl {
+    color: #447496;
+    font-weight: bold;
+
+}
+div.themenHTML {
+    color: #b8188d;
+    text-decoration: underline;
+    position: relative;
+    border: 3px solid #c08fc2;
+    left: 12px;
+    margin: 5px;
+}
+
+div.einfuegenNadel {
+    color:#c0c9c2;
+    font-weight: bold;
+    text-decoration: underline;
+    position: static;
+    border: 3px solid #29c9c2;
+}
+
+.aufgelistet {
+    color: #9ef0da; 
+    font-style: italic;  
+}
+
+span.a {
+    color: #298dff;
+    display: inline;
+    padding: 10px;
+    border: 10px solid pink; 
+}
+.menuleisten {
+  display: flex;
+  gap: 20px;
+  padding: 10px;
+}
+
+.menuleisten li {
+  list-style: none;
+}
+
+.menuleisten a {
+  display: block;
+  padding: 10px 15px;
+  text-decoration: none;
+  color: #d0d9dd8e;
+  border-bottom: 2px solid transparent;
+  transition: 0.2s;
+}
+
+.menuleisten a:hover {
+  background-color: #36bce9;
+  color: #0077cc;
+  border-bottom-color: #0077cc;
+}
+
+.tables {
+    color: dodgerblue;
+    text-decoration: underline; 
+    font-family:'Times New Roman', Times, serif;
+    text-align: center; 
+
+}
+.tableForms {
+    color: rgb(169, 18, 106);
+    text-align: center; 
+    padding: 10px; 
+    border: 10px solid rgb(8, 108, 190);
+}
+
+.tableStyle {
+    color:#083051;
+}
+
+
+.wochenPlan {
+    color:#083051;
+}
+.weekPlan {
+    color:darkmagenta;
+}
+.monDay {
+    color: #1b1061;
+}
+.tuesDay {
+    color: #3cb371;
+}
+.wednesDay {
+    color: #4beec2;
+}
+.thursDay {
+    color: #e47400;
+}
+.friDay {
+    color: #720002;
+}
+.dayOne {
+    color: #3e16b6;
+}
+.dayTwo {
+    color: #b4b4b4;
+}
+.dayThree {
+    color: #616161;
+}
+.dayFour {
+    color: #3c3c3c;
+}
+.dayFive {
+    color: grey;
+}
+.testSchrift {
+    color: rgb(132, 214, 244);
+    padding: 8px; 
+    border: 8px solid violet;
+}
+
+.buttonsEinfuegen
+{
+    color:rgb(180, 199, 213);
+}
+.eingabeFelderx{
+    color:rgb(184, 28, 28);
+}
+.testenUebertragen {
+    color:rgb(150, 15, 118);
+}
+.ausWahl {
+    color: rgb(64, 62, 132);
+}
+.selectElement {
+    color:rgb(8, 58, 106);
+}
+.anfragen {
+    color:violet;
+}
+
+.listenFormen {
+    color:blue;
+}
+.listenList {
+    color:cyan;
+}
+.geordnetListe {
+    color:darkred;
+    padding: 7px; 
+    border: 7px solid rgb(233, 98, 98);
+}
+.VarianteEins {
+    color:#c9d4ef;
+}
+.VarianteSpecial {
+    color:#c08fc2;
+}
+.VarianteZwei {
+    color:#00CED1;
+}
+.VarianteDrei {
+    color:#e2638c;
+}
+.ungeordnetListe {
+    color:blueviolet;
+    padding: 7px; 
+    border: 7px solid rgb(179, 25, 107);
+}
+.specialListe{
+    color:darkblue;
+}
+.punktFoermig {
+    color:#a62323;
+}
+.quadratFoermig {
+    color:darkmagenta;
+}
+.ListePriorisierung {
+    color:#FF1493;
+}
+
+body.startseite {
+    background-image: url("/bilder/img/IMG_0784\ 2.jpeg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+body.listenPage {
+    background: linear-gradient(to right, #3787c8, #a8afe8);
+
+}
+
+body.tablePage {
+    background: linear-gradient(to left, #ccebff, #007acc);
+}
+
+body.picturePage {
+    background: linear-gradient(to right, #005c99, #4db8ff);
+}
+
+body.buttonPage {
+    background: linear-gradient(to right, #4db8ff, #03273e);
+}

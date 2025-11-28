@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="stylesheet.css">
+        <title>Buttons</title>
+    </head>
+
+
+
+<body class="buttonPage">
+
+<h2 class="buttonsEinfuegen">...&amp; Wie sieht es mit Buttons aus? </h2><br>
+
+<button type="button" onclick="alert('Dies ist ein Buttonknopf.')">Click Me!</button><br><br><hr><br>
+
+<h2 class="eingabeFelderx">Input-Fields sprich Eingabefelder</h2>
+
+<label for="vname">Gebe hier deinen Vornamen ein:</label>
+<input type="text" id="vname" name="vname"><br><br>
+
+<label for="lname">Gebe hier deinen Nachnamen ein:</label>
+<input type="text" id="lname" name="lname"><br><br><hr><br>
+
+<h2>Wähle deine Lieblingsfarbe aus!</h2><br>
+
+<form>
+    <input type="radio" id="favColour" name="favColour" value="blue">
+    <label for="favColour">Blau</label><br>
+
+    <input type="radio" id="favColour1" name="favColour" value="rose">
+    <label for="favColour1">Rosé</label><br>
+
+    <input type="radio" id="favColour2" name="favColour" value="green">
+    <label for="favColour2">Meergrün</label>
+</form><br><hr><br>
+
+
+<h2 class="testenUebertragen">Testen wir mal den Übertragungs-Button.</h2>
+
+<form action="/action_page.php">
+    <label for="nameHaustier">Katze</label><br>
+    <input type="text" id="nameHaustier" name="nameHaustier"><br><br>
+    <label for="ageHaustier">Alter der Katze</label><br>
+    <input type="number" id="ageHaustier" name="nameHaustier"><br><br>
+
+    <button type="button" onclick="alert('Buja! Willkommen!.')">Abchecken</button>
+
+ </form><br><hr><br>
+
+ <h2 class="selectElement">Das Select-Element!</h2>
+
+ <h3 class="ausWahl">Hier hast du jetzt die freie Wahl, etwas zu wählen.</h3>
+
+ <form action="/action_page.php">
+    <label for="kleidungsStueck">Wähle ein Kleidungsstück aus: </label>
+        <select id="kleidungsStueck" name="kleidungsStueck">
+            <option value="schuhe">Schuhe</option>
+            <option value="halstuch">Halstuch</option>
+            <option value="pulloverBlau">Blauer Pullover</option>
+            <option value="jeansBlau">Blauer Jeans</option>
+            <option value="MützeRosa">Rosane Mütze</option>
+        </select><br><br>
+        
+        <button type="button" onclick="alert('Dies ist ein Buttonknopf.')">Submit here</button>
+
+ </form><br><hr><br>
+
+ <h3 class="anfragen">Haste ein Anliegen? Hau raus!</h3>
+
+ <textarea name="message" rows="10" cols="20">
+Wat is los? Wie können wa dir helfen?
+ </textarea><br><hr><br>
+
+ <a href="index.html">Zurück zur Hauptnavigation</a>
+
+</body>
+</html>
